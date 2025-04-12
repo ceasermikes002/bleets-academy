@@ -4,13 +4,10 @@ import { motion } from "framer-motion";
 import { AnimatedText } from "@/components/ui/animated-text";
 import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react";
 import { Logo } from "@/components/ui/logo";
-import { useAnalytics } from '@/hooks/useAnalytics';
 
 export default function Home() {
-  const { trackRegisterClick } = useAnalytics();
-
   return (
-    <main suppressHydrationWarning className="min-h-screen bg-black text-white overflow-hidden">
+    <main className="min-h-screen bg-black text-white overflow-hidden">
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-sm border-b border-cyan-900/30">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -19,14 +16,12 @@ export default function Home() {
             <Link href="#features" className="text-cyan-200 hover:text-cyan-400 transition-colors">Features</Link>
             <Link href="#curriculum" className="text-cyan-200 hover:text-cyan-400 transition-colors">Curriculum</Link>
             <Link href="#pricing" className="text-cyan-200 hover:text-cyan-400 transition-colors">Pricing</Link>
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-gradient-to-r from-cyan-400 to-purple-500 text-black px-6 py-2 rounded-full font-bold hover:from-cyan-300 hover:to-purple-400 transition-all duration-200"
-              onClick={() => trackRegisterClick('header')}
+            <Link
+              href="https://forms.gle/3qC23DijtD33P3bb8"
+              className="px-4 py-2 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-lg font-bold hover:from-cyan-400 hover:to-purple-400 transition-all duration-300"
             >
               Register Now
-            </motion.button>
+            </Link>
           </nav>
         </div>
       </header>
@@ -51,14 +46,13 @@ export default function Home() {
               Master HTML, CSS & JavaScript. Build real-world projects. Start with no prior experience.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-6">
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="bg-gradient-to-r from-cyan-400 to-purple-500 text-black px-8 py-3 rounded-full font-bold text-lg hover:from-cyan-300 hover:to-purple-400 transition-all duration-200"
-                onClick={() => trackRegisterClick('hero_section')}
+              <Link
+                href="https://forms.gle/3qC23DijtD33P3bb8"
+                className="group relative px-8 py-4 bg-cyan-500 rounded-lg overflow-hidden hover:bg-cyan-400 transition-colors"
               >
-                Register Now
-              </motion.button>
+                <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity" />
+                <span className="relative font-bold">Register Now →</span>
+              </Link>
               <a
                 href="https://wa.me/2348170985530"
                 target="_blank"
@@ -266,14 +260,12 @@ export default function Home() {
             Join Bleets Academy This Easter
           </h2>
           <p className="text-xl mb-8 text-cyan-200">Limited Slots Available - Secure Your Spot Today!</p>
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="bg-gradient-to-r from-cyan-400 to-purple-500 text-black px-8 py-3 rounded-full font-bold text-lg hover:from-cyan-300 hover:to-purple-400 transition-all duration-200"
-            onClick={() => trackRegisterClick('hero_section')}
+          <Link
+            href="https://forms.gle/3qC23DijtD33P3bb8"
+            className="inline-block px-8 py-4 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-lg font-bold hover:from-cyan-400 hover:to-purple-400 transition-all duration-300"
           >
             Start Your Journey
-          </motion.button>
+          </Link>
         </div>
       </section>
 
