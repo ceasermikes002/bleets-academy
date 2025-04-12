@@ -37,7 +37,7 @@ export default function RootLayout({
       <body
         className={`${orbitron.variable} ${shareTechMono.variable} antialiased`}
       >
-        <GoogleAnalytics measurementId="G-XXXXXXXXXX" />
+        <GoogleAnalytics measurementId="G-QL8SHBE220" />
         {children}
       </body>
     </html>
