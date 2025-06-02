@@ -1,53 +1,61 @@
-export const pricePlans = [
+export const pricingData = [
   {
-    title: 'Bleets Starter',
-    duration: '2 Weeks - 3 Classes/Week',
-    price: '₦6,000',
-    originalPrice: 12000,
+    title: "Basic Track",
+    name: "Basic Track",
+    monthlyPrice: 99,
+    annualPrice: 948, // 20% discount from monthly
+    accentColor: "blue",
+    secondaryColor: "purple",
+    popular: false,
     features: [
-      'HTML & CSS Fundamentals',
-      'Responsive Design Basics',
-      'Build Your First Website',
+      { text: "1 session per week", included: true },
+      { text: "Basic topic selection", included: true },
+      { text: "Entry-level tutors", included: true },
+      { text: "Progress tracking", included: true },
+      { text: "Email support", included: true },
+      { text: "Accountability partner", included: false },
+      { text: "Certificate of completion", included: false }
     ],
-    highlight: false,
+    description: "Perfect for beginners starting their tech journey"
   },
   {
-    title: 'Bleets Pro',
-    duration: '3 Weeks - 3 Classes/Week',
-    price: '₦8,000',
-    originalPrice: 18000,
+    title: "Professional Track",
+    name: "Professional Track",
+    monthlyPrice: 199,
+    annualPrice: 1908, // 20% discount from monthly
+    accentColor: "purple",
+    secondaryColor: "pink",
+    popular: true,
     features: [
-      'Advanced CSS Techniques',
-      'Modern Design Principles',
-      'Two Professional Projects',
+      { text: "2-3 sessions per week", included: true },
+      { text: "Advanced topics available", included: true },
+      { text: "Senior-level tutors", included: true },
+      { text: "Progress tracking", included: true },
+      { text: "Priority support", included: true },
+      { text: "Accountability partner option", included: true },
+      { text: "Certificate of completion", included: true }
     ],
-    highlight: true,
+    description: "Ideal for serious learners and career transitions"
   },
   {
-    title: 'Bleets Full Stack',
-    duration: '4 Weeks - 3 Classes/Week',
-    price: '₦12,000',
-    originalPrice: 25000,
+    title: "Enterprise",
+    name: "Enterprise",
+    monthlyPrice: 299,
+    annualPrice: 2868, // 20% discount from monthly
+    accentColor: "pink",
+    secondaryColor: "purple",
+    popular: false,
     features: [
-      'JavaScript Mastery',
-      'Interactive Web Apps',
-      'Three Dynamic Projects',
+      { text: "Flexible session frequency", included: true },
+      { text: "Team training options", included: true },
+      { text: "Expert-level tutors", included: true },
+      { text: "Custom curriculum", included: true },
+      { text: "Dedicated success manager", included: true },
+      { text: "Corporate billing", included: true },
+      { text: "White-label certificates", included: true }
     ],
-    highlight: true,
-  },
-  {
-    title: 'Bleets Complete',
-    duration: '8 Weeks - 3 Classes/Week',
-    price: '₦20,000',
-    originalPrice: 32000,
-    features: [
-      'Full Stack Frontend with HTML, CSS & JavaScript',
-      'Next.js Fundamentals & Routing',
-      'API Integration, SSR & Static Generation',
-      'Capstone Portfolio Website with Next.js',
-      '5 Real-world Projects including DOM & Next.js',
-    ],
-    highlight: true,
-    badge: '🚀 Best for Job Readiness',
-  },
-];
+    description: "Tailored for teams and organizations"
+  }
+]
+
+

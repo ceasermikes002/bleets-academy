@@ -1,26 +1,29 @@
-export const curriculumSections = [
-  {
-    title: "Frontend Fundamentals",
-    color: "purple-400",
-    gradient: "from-purple-900/30 to-cyan-900/30",
-    border: "border-purple-500/20",
-    items: [
-      "HTML5 & Semantic Web",
-      "CSS Layout & Animations",
-      "Mobile-First Design",
-      "Website Deployment"
-    ]
-  },
-  {
-    title: "Full Stack Development",
-    color: "cyan-400",
-    gradient: "from-cyan-900/30 to-purple-900/30",
-    border: "border-cyan-500/20",
-    items: [
-      "JavaScript & ES6+",
-      "Dynamic Web Apps",
-      "API Integration",
-      "Git & Dev Workflow"
-    ]
-  }
-];
+export const curriculumData = {
+  tracks: [
+    {
+      title: "Flexible Learning Paths",
+      features: [
+        "Frontend Development (React, Vue, Angular)",
+        "Backend Development (Node.js, Python, Java)",
+        "Database Management (SQL, MongoDB)",
+        "Cloud Services (AWS, Azure, GCP)",
+        "Mobile Development (React Native, Flutter)",
+        "DevOps & CI/CD",
+        "Custom topic selection available"
+      ]
+    },
+    {
+      title: "Learning Structure",
+      features: [
+        "1-on-1 personalized sessions",
+        "Optional accountability partner",
+        "Flexible scheduling (1-4 sessions/week)",
+        "Custom duration planning",
+        "Progress tracking dashboard",
+        "Monthly mentor appreciation",
+        "Certification upon completion"
+      ]
+    }
+  ]
+}
+

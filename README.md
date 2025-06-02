@@ -1,36 +1,135 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bleets Academy - Personalized Web Development Training Platform
 
-## Getting Started
+A modern, cyberpunk-themed landing page for Bleets Academy, built with Next.js, TypeScript, and Tailwind CSS. The platform offers personalized 1-on-1 web development training with expert mentors.
 
-First, run the development server:
+![Bleets Academy Screenshot](public/og-image.png)
 
+## 🚀 Features
+
+- **Modern Tech Stack**: Built with Next.js 15.3, React 19, TypeScript, and Tailwind CSS
+- **Responsive Design**: Fully responsive layout with mobile-first approach
+- **Animated UI**: Smooth animations and transitions using Framer Motion
+- **Custom Components**: Includes custom-built UI components using shadcn/ui
+- **Multi-step Form**: Interactive registration process with state management using Zustand
+- **SEO Optimized**: Includes metadata configuration and Google Analytics integration
+
+## 🏗 Project Structure
+
+```
+├── app/                  # Next.js app directory
+│   ├── layout.tsx       # Root layout with fonts and analytics
+│   ├── page.tsx         # Homepage component
+│   └── globals.css      # Global styles
+├── components/          # React components
+│   ├── ui/             # Reusable UI components
+│   ├── Hero.tsx        # Landing page hero section
+│   ├── Features.tsx    # Features showcase
+│   ├── Curriculum.tsx  # Course curriculum section
+│   ├── Pricing.tsx     # Pricing plans
+│   └── CTA.tsx         # Call-to-action section
+├── data/               # Static data files
+│   ├── featuresData.js # Features content
+│   ├── curriculumData.js # Curriculum content
+│   └── priceData.js    # Pricing information
+└── public/             # Static assets
+```
+
+## 🎨 Key Components
+
+- **Hero Section**: Cyberpunk-themed landing section with animated background
+- **Features**: Grid layout showcasing key platform benefits
+- **Curriculum**: Two-column layout presenting course content
+- **Pricing**: Interactive pricing cards with hover effects
+- **Multi-step Form**: Registration form with the following steps:
+  1. Personal Information
+  2. Package Selection
+  3. Additional Options
+  4. Experience Level
+  5. Summary
+
+## 🛠 Technologies Used
+
+- **Framework**: Next.js 15.3.0
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Animations**: Framer Motion
+- **State Management**: Zustand
+- **Icons**: Lucide React, Radix UI Icons
+- **Fonts**: Orbitron, Share Tech Mono
+- **Analytics**: Google Analytics
+- **SMS Integration**: Twilio
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+```bash
+git clone [repository-url]
+```
+
+2. **Install dependencies**
+```bash
+npm install
+# or
+yarn install
+```
+
+3. **Run the development server**
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. **Open [http://localhost:3000](http://localhost:3000)**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔧 Configuration
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Tailwind**: Customized configuration in `tailwind.config.ts`
+- **Components**: shadcn/ui configuration in `components.json`
+- **TypeScript**: Configuration in `tsconfig.json`
+- **ESLint**: Custom rules in `eslint.config.mjs`
 
-## Learn More
+## 📱 Features by Section
 
-To learn more about Next.js, take a look at the following resources:
+### Header
+- Responsive navigation
+- Custom animated logo
+- Easter banner for special promotions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Hero Section
+- Animated gradient background
+- Grid overlay pattern
+- CTA buttons for class registration and WhatsApp contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Features
+- Animated cards with hover effects
+- Icon-based feature presentation
+- Responsive grid layout
 
-## Deploy on Vercel
+### Curriculum
+- Two-track learning path
+- Custom gradient backgrounds
+- Animated text reveals
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Pricing
+- Interactive pricing cards
+- Custom hover effects
+- Clear package differentiation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### CTA Section
+- Gradient background
+- Strong call-to-action
+- Direct registration link
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 👥 Contact
+
+For inquiries about personalized web development training:
+- WhatsApp: +234 817 098 5530
+- GitHub: [@ceasermikes002](https://github.com/ceasermikes002)
+- LinkedIn: [Chimaobiemeka](https://www.linkedin.com/in/chimaobiemeka)
+

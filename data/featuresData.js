@@ -1,33 +1,47 @@
 export const featuresData = [
-    {
-      icon: '🚀',  // Example icon, you can use any other icon
-      title: 'Expert Instructors',
-      desc: 'Our instructors are industry experts with years of experience, ready to guide you through every concept.',
-    },
-    {
-      icon: '📚',  // Example icon
-      title: 'Comprehensive Curriculum',
-      desc: 'We provide a comprehensive curriculum that covers everything you need to know in frontend development.',
-    },
-    {
-      icon: '💻',  // Example icon
-      title: 'Hands-on Learning',
-      desc: 'Our courses include numerous projects and real-world examples to enhance practical understanding.',
-    },
-    {
-      icon: '🎯',  // Example icon
-      title: 'Job Readiness',
-      desc: 'Our goal is to ensure you are ready for the job market, with personalized career support and mentorship.',
-    },
-    {
-      icon: '🌐',  // Example icon
-      title: 'Global Community',
-      desc: 'Join a community of learners from all around the world and network with professionals and peers.',
-    },
-    {
-      icon: '🔧',  // Example icon
-      title: 'Tools & Resources',
-      desc: 'We equip you with the tools and resources you need, including GitHub, portfolio reviews, and more.',
-    },
-  ];
-  
+  {
+    icon: "sliders",
+    title: "Customizable Learning Path",
+    description: "Choose your specific tech stack, set your learning duration, and pick your preferred class frequency.",
+  },
+  {
+    icon: "users",
+    title: "Accountability Partners",
+    description: "Learn alongside a friend, track each other's progress, and attend optional joint sessions.",
+  },
+  {
+    icon: "calendar",
+    title: "Flexible Scheduling",
+    description: "Book 1-on-1 sessions that fit your timezone, with options from 1-4 classes per week.",
+  },
+  {
+    icon: "target",
+    title: "Goal-Based Learning",
+    description: "Set specific learning objectives with clear timelines, like 'Master TypeScript in 2 weeks'.",
+  },
+  {
+    icon: "badge-dollar-sign",
+    title: "Transparent Pricing",
+    description: "Get instant price quotes based on duration, frequency, topic complexity, and tutor expertise.",
+  },
+  {
+    icon: "medal",
+    title: "Certified Tutors",
+    description: "Learn from verified experts who follow structured curriculum templates.",
+  },
+  {
+    icon: "line-chart",
+    title: "Progress Tracking",
+    description: "Monitor your advancement with detailed progress dashboards and performance metrics.",
+  },
+  {
+    icon: "award",
+    title: "Certification",
+    description: "Earn certificates upon course completion to showcase your new skills.",
+  },
+  {
+    icon: "users-2",
+    title: "Team Training",
+    description: "Special packages available for corporate teams and group learning.",
+  },
+]
